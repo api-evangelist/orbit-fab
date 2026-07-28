@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "2025-06-18",
+  "name": "Orbit Fab",
+  "description": "Refuel Your Spacecraft",
+  "url": "https://www.orbitfab.com/",
+  "version": "7.0.2",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "supportedInterfaces": [
+    {
+      "transport": "HTTP+JSON",
+      "url": "https://www.orbitfab.com/wp-json/"
+    },
+    {
+      "transport": "text/markdown",
+      "url": "https://www.orbitfab.com/?format=md"
+    }
+  ],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/markdown",
+    "text/html"
+  ],
+  "skills": [
+    {
+      "id": "search",
+      "name": "Site search",
+      "description": "Full-text search of the site content.",
+      "tags": [
+        "search"
+      ],
+      "examples": [
+        "?s=hello"
+      ]
+    },
+    {
+      "id": "fetch-markdown",
+      "name": "Fetch page as Markdown",
+      "description": "Return any public page as a Markdown document.",
+      "tags": [
+        "content",
+        "markdown"
+      ]
+    }
+  ]
+}
