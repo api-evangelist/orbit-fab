@@ -1,0 +1,13 @@
+{
+    "linkset": [
+        {
+            "anchor": "https://www.orbitfab.com/",
+            "service-desc": [
+                {
+                    "href": "https://www.orbitfab.com/wp-json/",
+                    "type": "application/json"
+                }
+            ]
+        }
+    ]
+}
