@@ -50,3 +50,5 @@ common:
   description: Agent Card served at /.well-known/agent-card.json (flavored against A2A 1.0.0).
 - type: Website
   url: https://orbitfab.com/
+- type: Support
+  url: mailto:contact@orbitfab.com
